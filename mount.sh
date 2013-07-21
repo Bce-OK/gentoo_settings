@@ -10,19 +10,19 @@ echo "sudo mount -L "$name" $dir$name";
 sudo mount -L "$name" $dir$name;
 
 name=usr; 
-echo "sudo mount -L "$name" $dir$name";
+echo "sudo mount -L "$name" $dir/$name";
 sudo mount -L "$name" $dir/$name;
 
 name=var; 
-echo "sudo mount -L "$name" $dir$name";
+echo "sudo mount -L "$name" $dir/$name";
 sudo mount -L "$name" $dir/$name;
 
 name=mnt; 
-echo "sudo mount -L "$name" $dir$name";
+echo "sudo mount -L "$name" $dir/$name";
 sudo mount -L "$name" $dir/$name;
 
 name=media; 
-echo "sudo mount -L "$name" $dir$name";
+echo "sudo mount -L "$name" $dir/$name";
 sudo mount -L "$name" $dir/$name;
 
 
